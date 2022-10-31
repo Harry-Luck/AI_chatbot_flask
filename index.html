@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charSet="utf-8" />
+    <title></title>
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+    <link rel="stylesheet" href="./static/index.css" data-n-g="" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header></header>
+
+    <main>
+        <div class="chat-bot">
+            <div class="chat-bot-avatar">
+                <figure><img src="./static/images/chat-bot.jpg" alt=""></figure>
+            </div>
+            <div class="chat-expanded">
+                <div class="player-container">
+                    <div class="canvas-container"><img src="./static/images/chat-bot.jpg" alt=""></div>
+                    <div class="controls-overlay">
+                        <div class="controls-overlay-btns">
+                            <div class="control-overlay-mute">
+                                <button tabindex="0" type="button" aria-label="mute">
+                                    <span class="btn-mute">
+                                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.43 0.0999709C10.2676 0.029713 10.0895 0.00380289 9.91379 0.0248848C9.73811 0.0459668 9.57116 0.113286 9.43 0.219971L4.65 3.99997H1C0.734784 3.99997 0.48043 4.10533 0.292893 4.29286C0.105357 4.4804 0 4.73475 0 4.99997V11C0 11.2652 0.105357 11.5195 0.292893 11.7071C0.48043 11.8946 0.734784 12 1 12H4.65L9.38 15.78C9.55594 15.9211 9.77444 15.9987 10 16C10.1494 16.0024 10.297 15.9681 10.43 15.9C10.6002 15.8189 10.744 15.6914 10.8448 15.5322C10.9457 15.373 10.9995 15.1885 11 15V0.999971C10.9995 0.811485 10.9457 0.626987 10.8448 0.46775C10.744 0.308512 10.6002 0.18102 10.43 0.0999709ZM9 12.92L5.62 10.22C5.44406 10.0788 5.22556 10.0013 5 9.99997H2V5.99997H5C5.22556 5.99866 5.44406 5.92113 5.62 5.77997L9 3.07997V12.92ZM13.14 0.0899712C13.0087 0.0715861 12.875 0.0792469 12.7467 0.112516C12.6183 0.145785 12.4977 0.204011 12.3919 0.283869C12.286 0.363728 12.1969 0.463654 12.1297 0.577944C12.0625 0.692234 12.0184 0.818649 12 0.949971C11.9816 1.08129 11.9893 1.21495 12.0225 1.34331C12.0558 1.47167 12.114 1.59222 12.1939 1.69808C12.3552 1.91187 12.5948 2.05284 12.86 2.08997C14.2762 2.30822 15.5676 3.0261 16.5004 4.11376C17.4333 5.20142 17.9462 6.58704 17.9462 8.01997C17.9462 9.4529 17.4333 10.8385 16.5004 11.9262C15.5676 13.0138 14.2762 13.7317 12.86 13.95C12.5948 13.9685 12.3478 14.0917 12.1734 14.2924C11.999 14.493 11.9114 14.7548 11.93 15.02C11.9486 15.2852 12.0717 15.5322 12.2724 15.7066C12.4731 15.881 12.7348 15.9685 13 15.95H13.14C15.0328 15.6636 16.7602 14.708 18.0086 13.2566C19.2569 11.8053 19.9434 9.95434 19.9434 8.03997C19.9434 6.1256 19.2569 4.27469 18.0086 2.82331C16.7602 1.37193 15.0328 0.416318 13.14 0.129971V0.0899712ZM12.68 9.86997C12.4148 9.91241 12.1773 10.0585 12.0198 10.276C11.8622 10.4935 11.7976 10.7648 11.84 11.03C11.8824 11.2952 12.0285 11.5327 12.246 11.6902C12.4636 11.8477 12.7348 11.9124 13 11.87C13.1085 11.8688 13.2163 11.8519 13.32 11.82C14.099 11.5437 14.7733 11.033 15.2502 10.3579C15.7271 9.68277 15.9832 8.87652 15.9832 8.04997C15.9832 7.22343 15.7271 6.41717 15.2502 5.74208C14.7733 5.06699 14.099 4.55621 13.32 4.27997C13.068 4.1951 12.7927 4.2138 12.5545 4.33194C12.3164 4.45009 12.1349 4.65802 12.05 4.90997C11.9651 5.16193 11.9838 5.43728 12.102 5.67545C12.2201 5.91362 12.428 6.0951 12.68 6.17997C13.0595 6.3239 13.3862 6.57987 13.6167 6.91388C13.8472 7.24789 13.9707 7.64413 13.9707 8.04997C13.9707 8.45582 13.8472 8.85205 13.6167 9.18606C13.3862 9.52007 13.0595 9.77604 12.68 9.91997V9.86997Z" fill="#005FF4"></path></svg>
+                                        <span>Mute</span>
+                                    </span>
+                                    <span class="btn-unmute">
+                                        <svg width="21" height="16" fill="none"><path d="M10.43.1a1 1 0 00-1 .12L4.65 4H1a1 1 0 00-1 1v6a1 1 0 001 1h3.65l4.73 3.78A1 1 0 0010 16a.911.911 0 00.43-.1A1 1 0 0011 15V1a1 1 0 00-.57-.9zM9 12.92l-3.38-2.7A1 1 0 005 10H2V6h3a1 1 0 00.62-.22L9 3.08v9.84zM17.91 8l1.8-1.79A1.005 1.005 0 0019 4.496a1.004 1.004 0 00-.71.294l-1.79 1.8-1.79-1.8a1.004 1.004 0 00-1.42 1.42L15.09 8l-1.8 1.79a1.001 1.001 0 00.325 1.639 1.002 1.002 0 001.095-.219l1.79-1.8 1.79 1.8a1.002 1.002 0 001.639-.326.999.999 0 00-.219-1.094L17.91 8z" fill="red"></path></svg>
+                                        <span>Unmute</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="control-overlay-collapse">
+                                <button tabindex="0" type="button" aria-label="collapse">
+                                    <span>
+                                        <svg width="18" height="18" fill="none"><path d="M10.88 9l5.733-5.72a1.339 1.339 0 10-1.893-1.893L9 7.12 3.28 1.387A1.339 1.339 0 001.387 3.28L7.12 9l-5.733 5.72a1.332 1.332 0 000 1.893 1.333 1.333 0 001.893 0L9 10.88l5.72 5.733a1.333 1.333 0 001.893 0 1.333 1.333 0 000-1.893L10.88 9z" fill="#fff"></path></svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-container">
+                    <div class="chat-main">
+                        <div class="chat-history">
+                            <div class="chat-message-bubble chat-message-bubble--bot">
+                                <video class="main-video" controls>
+                                    <source src="./static/images/video1.mp4" type="video/mp4">
+                                </video>
+                                <video onclick='selectVideo(this)'><source src="./static/images/video2.mp4" type="video/mp4"></video>
+                                <video onclick='selectVideo(this)'><source src="./static/images/video3.mp4" type="video/mp4"></video>
+                                <video onclick='selectVideo(this)'><source src="./static/images/video1.mp4" type="video/mp4"></video>
+                            </div>
+                        </div>
+                        <div class="chat-form">
+                            <div class="chat-form-message">
+                                <div class="chat-form-message-input">
+                                    <input type="text" class="chat-inputbox" placeholder="Type your message">
+                                </div>
+                                <p class="recording">
+                                    <span>Recording the voice </span><img src="./static/images/recording.gif" alt="Recording">
+                                </p>
+                                <div class="mic-btn active"><img src="./static/images/icn_mic.svg" alt=""></div>
+                            </div>
+                            <button class="form-button">
+                                <span>
+                                    <svg width="38" height="38"><g fill="none"><rect width="38" height="38" y="0.396" fill="#005FF4" rx="19"></rect><path fill="#FFF" d="M25.602 17.67L14.52 12.128a2.375 2.375 0 00-3.23 3.088l1.9 4.251a.838.838 0 010 .65l-1.9 4.25a2.375 2.375 0 002.17 3.341c.37-.003.735-.09 1.068-.253l11.083-5.542a2.375 2.375 0 000-4.243h-.008zm-.704 2.826l-11.083 5.542a.791.791 0 01-1.07-1.03l1.893-4.25c.024-.057.046-.115.063-.175h5.455a.792.792 0 000-1.583H14.7a1.583 1.583 0 00-.063-.174l-1.892-4.251a.792.792 0 011.069-1.03l11.083 5.542a.792.792 0 010 1.41z"></path></g></svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./static/common.js"></script>
+    <script type="text/javascript" src="./static/style.js"></script>
+</body>
+</html>
